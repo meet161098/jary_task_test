@@ -6,6 +6,5 @@ resource "datadog_monitor" "monitor2" {
 
   monitor_thresholds {
     critical = 5
-    warning = 3
   }
 }
