@@ -5,7 +5,5 @@ resource "datadog_monitor" "monitor6" {
   message  = "Test monitor message"
 
   monitor_thresholds {
-    critical = 5
-    warning = 8
-  }
+    critical = 5  }
 }
